@@ -1,1 +1,1 @@
-body{background-color:beige}
+*{box-sizing:border-box;margin:0;padding:0}body,html{font-family:Inter,sans-serif;height:100%}body{background-color:beige}#main__title{align-items:center;display:flex;font-size:2rem;height:100vh;justify-content:center}
