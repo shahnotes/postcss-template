@@ -1,0 +1,27 @@
+{
+    "name": "postcss-dev",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "watch:css": "postcss resources/css/app.css -o public/build/css/app.css -w",
+        "build:css": "postcss resources/css/app.css -o public/build/css/app.css"
+    },
+    "keywords": [
+        "postcss",
+        "css",
+        "postcss-template"
+    ],
+    "author": "Harsh Shah",
+    "license": "ISC",
+    "description": "Minimal postcss project",
+    "devDependencies": {
+        "autoprefixer": "^10.4.19",
+        "cssnano": "^7.0.2",
+        "postcss": "^8.4.38",
+        "postcss-assets": "^6.0.0",
+        "postcss-cli": "^11.0.0",
+        "postcss-import": "^16.1.0",
+        "postcss-preset-env": "^9.5.14",
+        "precss": "^4.0.0"
+    }
+}
